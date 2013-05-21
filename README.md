@@ -4,6 +4,10 @@ Rspec2 formatter that pleases developers eyes
 
 ![demo](abhakungszeichen-demo.png)
 
+## Why Abhakungszeichen?
+
+Because it's the funniest translation for 'tick' I've found so far.
+
 ## Installation
 
 install formatter:
