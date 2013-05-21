@@ -6,21 +6,13 @@ Rspec2 formatter that pleases developers eyes
 
 ## Installation
 
-Add this line to your application's Gemfile:
-
-    gem 'rspec-abhakungszeichen-formatter'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
+install formatter:
 
     $ gem install rspec-abhakungszeichen-formatter
 
 ## Usage
 
-    $ rspec --format RspecAbhakungszeichenFormatter --color
+    $ rspec --format RspecAbhakungszeichenFormatter --color my_spec.rb
 
 ## Contributing
 
