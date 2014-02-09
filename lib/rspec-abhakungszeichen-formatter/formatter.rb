@@ -16,7 +16,7 @@ class RspecAbhakungszeichenFormatter < RSpec::Core::Formatters::BaseTextFormatte
   end
 
   def example_failed(proxy)
-    puts color("#{pad} \u2717 #{proxy.description}", :red)
+    puts color("#{pad} \u2717 #{proxy.description}: #{proxy.exception}", :red)
   end
 
   def example_group_started(example_group)
